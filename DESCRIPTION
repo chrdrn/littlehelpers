@@ -1,0 +1,22 @@
+Package: customfunctions
+Type: Package
+Title: Repository of custom functions
+Version: 0.0.1
+Author: person(
+   "Christoph", "Adrian",
+   email = "christoph.adrian@fau.de",
+   role = c("aut", "cre"), 
+   comment = c(ORCID = "0000-0002-0441-4150"))
+   )
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package is used to store different custom functions. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.1)
+Imports:
+    here,
+    fs,
+    osfr
+RoxygenNote: 7.2.2
