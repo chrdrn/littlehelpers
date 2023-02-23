@@ -29,8 +29,8 @@ view_2 = function(
   dt = DT::datatable(df_s, 
                      rownames = F, 
                      colnames = paste0(colnames(df), lapply(labelled::var_label(df), function(x) {ifelse(!is.null(x), paste0(" / ", x), "")})),
-                     options = list(paging = F),
-                     caption = "jfkdsjf")
+                     options = list(paging = F)
+                    )
   htmlwidgets::saveWidget(dt, filename) # saving file
   browseURL(paste0(getwd(), "/", filename)) # opening file in browser
   # warning if more rows than dislayed are presenent
