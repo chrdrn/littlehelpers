@@ -2,11 +2,19 @@ Package: customfunctions
 Type: Package
 Title: Repository of custom functions
 Version: 0.0.1
-Author: person(
-   "Christoph", "Adrian",
-   email = "christoph.adrian@fau.de",
-   role = c("aut", "cre"), 
-   comment = c(ORCID = "0000-0002-0441-4150"))
+Author: c(
+  person(
+    given = "Christoph",
+    family = "Adrian",
+    email = "christoph.adrian@fau.de",
+    role = c("aut", "cre"), 
+    comment = c(ORCID = "0000-0002-0441-4150"))
+   ),
+  person(
+    given ="Julius",
+    family = "Klingelhöfer",
+    email = "julius.klingelhöfer@fau.de",
+    role = c("aut")
    )
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: This package is used to store different custom functions. 
