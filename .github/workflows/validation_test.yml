@@ -1,2 +1,0 @@
-- name: R Package Validation Report
-  uses: insightsengineering/thevalidatoR@v1.2.3
