@@ -1,7 +1,7 @@
 Package: customfunctions
 Type: Package
 Title: Repository of custom functions
-Version: 0.0.1
+Version: 0.0.1.1
 Author: c(
   person(
     given = "Christoph",
@@ -24,7 +24,11 @@ LazyData: true
 Depends: 
     R (>= 3.1)
 Imports:
-    here,
+    DT,
+    dplyr,
     fs,
+    here,
+    htmlwidgets,
+    labelled,
     osfr
 RoxygenNote: 7.2.2

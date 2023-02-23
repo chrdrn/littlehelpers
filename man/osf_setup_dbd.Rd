@@ -20,6 +20,3 @@ List with string parameteres
 \description{
 This is a custom function to create a data import pipeline for the Digital behavioral data seminar. It creates the local folders for saving the data downloaded from an osf repository. ´For the package to work correctly, the following parameters must be defined in the R Environemnt: OSF_PAT (Personal Access Token for OSF) and OSF_PATH (URL of the OSF project)
 }
-\examples{
-osf_setup_dbd("2022_ws", "01-kick_off")
-}

@@ -7,9 +7,6 @@
 #'
 #' @return List with string parameteres
 #' @export
-#'
-#' @examples
-#' osf_setup_dbd("2022_ws", "01-kick_off")
 osf_setup_dbd <- function(semester = "OSF folder name of the semster",
                           session = "OSF folder name of the session") {
 
@@ -28,7 +25,7 @@ osf_setup_dbd <- function(semester = "OSF folder name of the semster",
     )
 
   ## Get OSF path
-  osf_data_path <- osf_ls_files(
+  osf_data_path <- osfr::osf_ls_files(
     node,
     path = paste0(semester, "/", session))
 
