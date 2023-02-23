@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' view_2(data_wide)
+#' view_2(cars)
 #' View = view_2 # replaces RStudio standard viewer
 
 view_2 = function(
