@@ -1,7 +1,7 @@
-Package: customfunctions
+Package: littlehelpers
 Type: Package
 Title: Repository of custom functions
-Version: 0.0.1.1
+Version: 0.0.2
 Author: c(
   person(
     given = "Christoph",
@@ -16,19 +16,19 @@ Author: c(
     email = "julius.klingelhöfer@fau.de",
     role = c("aut")
    )
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: This package is used to store different custom functions. 
-License: What license is it under?
+Maintainer: Christoph Adrian <christoph.adrian@fau.det>
+Description: Repository of R scripts and functions for things I do often, so I have to type less. 
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 3.1)
 Imports:
+    osfr,
+    here,
     DT,
     dplyr,
     fs,
-    here,
     htmlwidgets,
-    labelled,
-    osfr
-RoxygenNote: 7.2.2
+    labelled
+RoxygenNote: 7.3.1
