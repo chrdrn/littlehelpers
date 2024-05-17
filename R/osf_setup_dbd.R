@@ -6,6 +6,9 @@
 #' @param session OSF folder name of the session (character string; e.g. "04-api_access-twitter").
 #'
 #' @return List with string parameteres
+#' @importFrom fs dir_create
+#' @importFrom here here
+#' @importFrom osfr osf_retrieve_node osf_ls_files
 #' @export
 osf_setup_dbd <- function(semester = "OSF folder name of the semster",
                           session = "OSF folder name of the session") {

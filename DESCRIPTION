@@ -1,7 +1,7 @@
 Package: littlehelpers
 Type: Package
 Title: Repository of custom functions
-Version: 0.0.2
+Version: 0.0.3
 Author: c(
   person(
     given = "Christoph",

@@ -8,7 +8,8 @@
 #' @param data_directory The directory where data will be downloaded. Default is "local_data/osf_pull".
 #'
 #' @return No explicit return value. Data will be downloaded to the specified directory.
-#' @importFrom osfr here osf_download osf_ls_nodes osf_ls_files
+#' @importFrom osfr osf_download osf_ls_nodes osf_ls_files
+#' @importFrom here here
 #' @export
 #' @examples
 #' \dontrun{
@@ -17,6 +18,7 @@
 #' osf_node_project <- osfr::osf_retrieve_node("Your OSF project")
 #' download_osf_data(download_folder, osf_node_component, osf_node_project)
 #' }
+
 download_osf_component <- function(
     download_folders,
     osf_node_components,
